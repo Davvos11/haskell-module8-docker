@@ -5,7 +5,7 @@ services:
     image: davvos11/haskell-module8
     container_name: haskell
     volumes:
-      - ./haskell:/root
+      - ./haskell:/root/files
     ports:
       - "9161:9161"
       - "9162:9162"
