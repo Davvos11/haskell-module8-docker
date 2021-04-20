@@ -1,9 +1,9 @@
-First time setup:
+First time setup (run in the current directory):
 ```sh
 docker build -t davvos11/haskell-module8 .
 ```
 
-To access the system you can run:
+To access the system you can run (in the current directory):
 ```sh
 docker run -it -v $(pwd)/haskell:/root davvos11/haskell-module8:latest
 ```
