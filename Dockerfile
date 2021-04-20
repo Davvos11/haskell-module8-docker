@@ -1,6 +1,6 @@
 FROM haskell:8.0.2
 
-MAINTAINER "vosdavid2@gmail.com"
+LABEL maintainer="vosdavid2@gmail.com"
 
 # Install cabal packages
 RUN cabal update && cabal install quickcheck twentefp-eventloop-trees
