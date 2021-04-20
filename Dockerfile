@@ -15,4 +15,4 @@ EXPOSE 9161-9163
 WORKDIR "/root/files"
 
 # Set GHCI as the default command
-ENTRYPOINT ["/opt/ghc/8.0.2/bin/ghci"]
+CMD ["/opt/ghc/8.0.2/bin/ghci"]
