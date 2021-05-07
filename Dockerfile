@@ -3,7 +3,7 @@ FROM haskell:8.0.2
 LABEL maintainer="vosdavid2@gmail.com"
 
 # Install cabal packages
-RUN cabal update && cabal install quickcheck twentefp-eventloop-trees
+RUN cabal update && cabal install quickcheck twentefp-eventloop-trees parsec
 
 # Install Sprockell
 RUN git clone https://github.com/leonschoorl/sprockell.git && cd sprockell && cabal install
