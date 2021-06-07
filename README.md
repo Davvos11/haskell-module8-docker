@@ -24,4 +24,6 @@ or, if you have `docker-compose` installed:
 docker-compose run --service-ports haskell
 ```
 
-If you want to do something inside the container before running ghci (like changing to another directory), you can add `bash` add the end of the command and you will get a normal shell.
+If you want to do something inside the container before running *ghci* (like changing to another directory), you can add `bash` add the end of the command and you will get a normal shell.
+
+Files created inside the docker container do have *root* as their owner, to access them from the outside you can use for example `sudo chown $USER:$USER ./filename`
