@@ -6,6 +6,7 @@ This container contains GHC version 8.0.2 with the following libraries:
 - zip-1.2.0
 - regex-tdfa
 - bytestring
+- sprockell
 
 This means that it can be used throughout the entirety of the module (as of 2021) and is able to plot graphs (in a browser outside the container), use quickcheck and parsec, and use the provided MakeZip and CheckZip for the project.
 
